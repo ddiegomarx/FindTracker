@@ -7,7 +7,7 @@ on:
 
 jobs:
   build:
-     runs-on: self-hosted # Utilizando um runner hospedado por você
+     runs-on: [self-hosted, windows , x64]
 
     steps:
     - name: Checkout do código
