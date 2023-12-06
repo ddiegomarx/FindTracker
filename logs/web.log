@@ -1,0 +1,113 @@
+2023.12.06 00:41:59 INFO  web[][o.s.p.ProcessEntryPoint] Starting Web Server
+2023.12.06 00:41:59 INFO  web[][o.s.s.a.TomcatHttpConnectorFactory] Starting Tomcat on port 9000
+2023.12.06 00:42:00 INFO  web[][o.s.s.p.LogServerVersion] SonarQube Server / 10.3.0.82913 / 6f8a6d03ea2dd721d4727be508574d541381d0a1
+2023.12.06 00:42:01 INFO  web[][o.s.s.p.d.EmbeddedDatabase] Starting embedded database on port 9092 with url jdbc:h2:tcp://127.0.0.1:9092/sonar;NON_KEYWORDS=VALUE
+2023.12.06 00:42:01 INFO  web[][o.s.s.p.d.EmbeddedDatabase] Embedded database started. Data stored in: /opt/sonarqube/data
+2023.12.06 00:42:01 INFO  web[][o.s.d.DefaultDatabase] Create JDBC data source for jdbc:h2:tcp://127.0.0.1:9092/sonar;NON_KEYWORDS=VALUE
+2023.12.06 00:42:01 INFO  web[][c.z.h.HikariDataSource] HikariPool-1 - Starting...
+2023.12.06 00:42:01 INFO  web[][c.z.h.p.HikariPool] HikariPool-1 - Added connection conn2: url=jdbc:h2:tcp://127.0.0.1:9092/sonar user=
+2023.12.06 00:42:01 INFO  web[][c.z.h.HikariDataSource] HikariPool-1 - Start completed.
+2023.12.06 00:42:01 WARN  web[][o.s.db.dialect.H2] H2 database should be used for evaluation purpose only.
+2023.12.06 00:42:02 INFO  web[][o.s.s.p.ServerFileSystemImpl] SonarQube home: /opt/sonarqube
+2023.12.06 00:42:02 INFO  web[][o.s.s.u.SystemPasscodeImpl] System authentication by passcode is disabled
+2023.12.06 00:42:03 INFO  web[][o.s.s.p.ServerPluginManager] Deploy C# Code Quality and Security / 9.13.0.79967 / 0b84a168e0d212178722ac9865627046c515b212
+2023.12.06 00:42:03 INFO  web[][o.s.s.p.ServerPluginManager] Deploy Clean as You Code / 2.2.2.656 / a856086cd01263bf020d3a6aa62763cb76b74120
+2023.12.06 00:42:03 INFO  web[][o.s.s.p.ServerPluginManager] Deploy Configuration detection for Code Quality and Security / 1.3.0.654 / 63073f0270b2c4754afa58eb8b5ea04e2eebf1a4
+2023.12.06 00:42:03 INFO  web[][o.s.s.p.ServerPluginManager] Deploy Flex Code Quality and Security / 2.12.0.4568 / e8b2821a05db57b79b8ae85e3db1571f5b744273
+2023.12.06 00:42:03 INFO  web[][o.s.s.p.ServerPluginManager] Deploy Go Code Quality and Security / 1.15.0.4655 / 28938525c4093d5e9fa4e858535bbcb60af7f066
+2023.12.06 00:42:03 INFO  web[][o.s.s.p.ServerPluginManager] Deploy HTML Code Quality and Security / 3.11.0.4708 / bbdf3696bc5c1964fa6e78171910f522f2206642
+2023.12.06 00:42:03 INFO  web[][o.s.s.p.ServerPluginManager] Deploy IaC Code Quality and Security / 1.22.0.7057 / 24f70fff5c9e8b2ccdbae2067be30f1e89da3b35
+2023.12.06 00:42:03 INFO  web[][o.s.s.p.ServerPluginManager] Deploy JaCoCo / 1.3.0.1538 / 74a7798c7cea687c72ed9df40c93eb7ea2a58c49
+2023.12.06 00:42:03 INFO  web[][o.s.s.p.ServerPluginManager] Deploy Java Code Quality and Security / 7.27.1.33504 / fa8668548d47fc0fd7141a99c396bf4c92f8ed88
+2023.12.06 00:42:03 INFO  web[][o.s.s.p.ServerPluginManager] Deploy JavaScript/TypeScript/CSS Code Quality and Security / 10.9.0.24449 / 11173bb4d804f5ee11817c30ab5cab080dd32170
+2023.12.06 00:42:03 INFO  web[][o.s.s.p.ServerPluginManager] Deploy Kotlin Code Quality and Security / 2.18.0.2938 / f4087142b64b83c72808f8e0adb74ecec4717ba0
+2023.12.06 00:42:03 INFO  web[][o.s.s.p.ServerPluginManager] Deploy PHP Code Quality and Security / 3.33.0.11274 / 89583886fa2f4951991f0550938d64572117fd0c
+2023.12.06 00:42:03 INFO  web[][o.s.s.p.ServerPluginManager] Deploy Python Code Quality and Security / 4.10.0.13725 / cbda7304ea2baf4ab491777866ee7247a741f910
+2023.12.06 00:42:03 INFO  web[][o.s.s.p.ServerPluginManager] Deploy Ruby Code Quality and Security / 1.15.0.4655 / 28938525c4093d5e9fa4e858535bbcb60af7f066
+2023.12.06 00:42:03 INFO  web[][o.s.s.p.ServerPluginManager] Deploy Scala Code Quality and Security / 1.15.0.4655 / 28938525c4093d5e9fa4e858535bbcb60af7f066
+2023.12.06 00:42:03 INFO  web[][o.s.s.p.ServerPluginManager] Deploy Text Code Quality and Security / 2.7.1.1388 / null
+2023.12.06 00:42:03 INFO  web[][o.s.s.p.ServerPluginManager] Deploy VB.NET Code Quality and Security / 9.13.0.79967 / 0b84a168e0d212178722ac9865627046c515b212
+2023.12.06 00:42:03 INFO  web[][o.s.s.p.ServerPluginManager] Deploy XML Code Quality and Security / 2.10.0.4108 / 34b16ba369117f6befc0b1e0866a069a80f6db2e
+2023.12.06 00:42:08 INFO  web[][o.s.s.e.EsClientProvider] Connected to local Elasticsearch: [http://localhost:9001]
+2023.12.06 00:42:09 WARN  web[][o.s.a.s.w.WebService$Action] Description is not set on action api/monitoring/metrics
+2023.12.06 00:42:09 WARN  web[][o.s.a.s.w.WebService$Action] Since is not set on action api/monitoring/metrics
+2023.12.06 00:42:09 WARN  web[][o.s.a.s.w.WebService$Action] The response example is not set on action api/monitoring/metrics
+2023.12.06 00:42:09 WARN  web[][o.s.a.s.w.WebService$Action] The response example is not set on action api/system/liveness
+2023.12.06 00:42:09 INFO  web[][o.s.s.p.w.MasterServletFilter] Initializing servlet filter org.sonar.server.platform.web.WebServiceFilter@12567179 [pattern=UrlPattern{inclusions=[/api/system/migrate_db.*, ...], exclusions=[/api/components/update_key, ...]}]
+2023.12.06 00:42:09 INFO  web[][o.s.s.p.DetectPluginChange] Detect plugin changes
+2023.12.06 00:42:09 INFO  web[][o.s.s.p.DetectPluginChange] No plugin change detected
+2023.12.06 00:42:10 INFO  web[][o.h.v.i.util.Version] HV000001: Hibernate Validator null
+2023.12.06 00:42:11 INFO  web[][o.s.s.s.LogServerId] Server ID: 147B411E-AYw3rZHG7thN8xI5k4Le
+2023.12.06 00:42:11 WARN  web[][o.s.s.a.LogOAuthWarning] For security reasons, OAuth authentication should use HTTPS. You should set the property 'Administration > Configuration > Server base URL' to a HTTPS URL.
+2023.12.06 00:42:11 INFO  web[][o.s.s.p.UpdateCenterClient] Update center: https://update.sonarsource.org/update-center.properties
+2023.12.06 00:42:12 WARN  web[][o.s.a.s.w.WebService$Action] The response example is not set on action saml/validation_init
+2023.12.06 00:42:12 WARN  web[][o.s.a.s.w.WebService$Action] The response example is not set on action api/issues/list
+2023.12.06 00:42:12 WARN  web[][o.s.a.s.w.WebService$Action] The response example is not set on action api/system/liveness
+2023.12.06 00:42:12 WARN  web[][o.s.a.s.w.WebService$Action] The response example is not set on action api/plugins/download
+2023.12.06 00:42:12 WARN  web[][o.s.a.s.w.WebService$Action] The response example is not set on action api/analysis_cache/get
+2023.12.06 00:42:12 WARN  web[][o.s.a.s.w.WebService$Action] The response example is not set on action api/alm_integrations/check_pat
+2023.12.06 00:42:12 WARN  web[][o.s.a.s.w.WebService$Action] The response example is not set on action api/push/sonarlint_events
+2023.12.06 00:42:12 WARN  web[][o.s.a.s.w.WebService$Action] The response example is not set on action api/dismiss_message/check
+2023.12.06 00:42:12 INFO  web[][o.s.s.a.p.ExpiredSessionsCleaner] Purge of expired session tokens has removed 0 elements
+2023.12.06 00:42:12 INFO  web[][o.s.s.a.p.ExpiredSessionsCleaner] Purge of expired SAML message ids has removed 0 elements
+2023.12.06 00:42:12 INFO  web[][o.s.s.n.NotificationDaemon] Notification service started (delay 60 sec.)
+2023.12.06 00:42:12 INFO  web[][o.s.s.t.TelemetryDaemon] Sharing of SonarQube statistics is enabled.
+2023.12.06 00:42:13 INFO  web[][o.s.s.s.GeneratePluginIndex] Generate scanner plugin index
+2023.12.06 00:42:13 INFO  web[][o.s.s.s.RegisterPermissionTemplates] Register permission templates
+2023.12.06 00:42:13 INFO  web[][o.s.s.s.RenameDeprecatedPropertyKeys] Rename deprecated property keys
+2023.12.06 00:42:13 INFO  web[][o.s.s.s.RegisterPlugins] Register plugins
+2023.12.06 00:42:13 INFO  web[][o.s.s.p.w.MasterServletFilter] Initializing servlet filter org.sonar.server.platform.web.SonarLintConnectionFilter@61b9d198 [pattern=UrlPattern{inclusions=[/api/*], exclusions=[/api/v2/*]}]
+2023.12.06 00:42:13 INFO  web[][o.s.s.p.w.MasterServletFilter] Initializing servlet filter org.sonar.server.platform.web.WebServiceFilter@21ce9951 [pattern=UrlPattern{inclusions=[/api/issues/delete_comment.*, ...], exclusions=[/api/authentication/login.*, ...]}]
+2023.12.06 00:42:13 INFO  web[][o.s.s.p.w.MasterServletFilter] Initializing servlet filter org.sonar.server.platform.web.WebServiceReroutingFilter@85bcdcd [pattern=UrlPattern{inclusions=[/api/components/bulk_update_key, ...], exclusions=[]}]
+2023.12.06 00:42:13 INFO  web[][o.s.s.p.w.MasterServletFilter] Initializing servlet filter org.sonar.server.authentication.DefaultAdminCredentialsVerifierFilter@650f214c [pattern=UrlPattern{inclusions=[/*], exclusions=[*.css, ...]}]
+2023.12.06 00:42:13 INFO  web[][o.s.s.p.w.MasterServletFilter] Initializing servlet filter org.sonar.server.authentication.InitFilter@4a951964 [pattern=UrlPattern{inclusions=[/sessions/init/*], exclusions=[]}]
+2023.12.06 00:42:13 INFO  web[][o.s.s.p.w.MasterServletFilter] Initializing servlet filter org.sonar.server.authentication.SamlValidationRedirectionFilter@1f440576 [pattern=UrlPattern{inclusions=[/oauth2/callback/saml], exclusions=[]}]
+2023.12.06 00:42:13 INFO  web[][o.s.s.p.w.MasterServletFilter] Initializing servlet filter org.sonar.server.authentication.OAuth2CallbackFilter@49a786f6 [pattern=UrlPattern{inclusions=[/oauth2/callback/*], exclusions=[]}]
+2023.12.06 00:42:13 INFO  web[][o.s.s.p.w.MasterServletFilter] Initializing servlet filter org.sonar.server.authentication.ResetPasswordFilter@553ecbcf [pattern=UrlPattern{inclusions=[/*], exclusions=[*.css, ...]}]
+2023.12.06 00:42:13 INFO  web[][o.s.s.p.w.MasterServletFilter] Initializing servlet filter org.sonar.server.authentication.ws.LoginAction@5bf130ea [pattern=UrlPattern{inclusions=[/api/authentication/login], exclusions=[]}]
+2023.12.06 00:42:13 INFO  web[][o.s.s.p.w.MasterServletFilter] Initializing servlet filter org.sonar.server.authentication.ws.LogoutAction@33b89461 [pattern=UrlPattern{inclusions=[/api/authentication/logout], exclusions=[]}]
+2023.12.06 00:42:13 INFO  web[][o.s.s.p.w.MasterServletFilter] Initializing servlet filter org.sonar.server.authentication.ws.ValidateAction@3b6a1b57 [pattern=UrlPattern{inclusions=[/api/authentication/validate], exclusions=[]}]
+2023.12.06 00:42:13 INFO  web[][o.s.s.p.w.MasterServletFilter] Initializing servlet filter org.sonar.server.saml.ws.ValidationInitAction@234a68d4 [pattern=UrlPattern{inclusions=[/saml/validation_init], exclusions=[]}]
+2023.12.06 00:42:13 INFO  web[][o.s.s.p.w.MasterServletFilter] Initializing servlet filter org.sonar.server.saml.ws.ValidationAction@7274bcf6 [pattern=UrlPattern{inclusions=[/saml/validation], exclusions=[]}]
+2023.12.06 00:42:13 INFO  web[][o.s.s.p.w.MasterServletFilter] Initializing servlet filter org.sonar.server.user.ws.ChangePasswordAction@3782b635 [pattern=UrlPattern{inclusions=[/api/users/change_password], exclusions=[]}]
+2023.12.06 00:42:13 INFO  web[][o.s.s.p.w.MasterServletFilter] Initializing servlet filter org.sonar.server.plugins.PluginsRiskConsentFilter@8526a06 [pattern=UrlPattern{inclusions=[/*], exclusions=[*.css, ...]}]
+2023.12.06 00:42:13 INFO  web[][o.s.s.p.p.PlatformLevelStartup] Running Community Edition
+2023.12.06 00:42:13 INFO  web[][o.s.s.p.Platform] Web Server is operational
+2023.12.06 00:59:54 INFO  web[][o.s.p.ProcessEntryPoint] Gracefully stopping process
+2023.12.06 00:59:54 INFO  web[][o.s.s.n.NotificationDaemon] Notification service stopped
+2023.12.06 00:59:54 INFO  web[][c.z.h.HikariDataSource] HikariPool-1 - Shutdown initiated...
+2023.12.06 00:59:54 INFO  web[][c.z.h.HikariDataSource] HikariPool-1 - Shutdown completed.
+2023.12.06 00:59:54 INFO  web[][o.s.s.p.d.EmbeddedDatabase] Embedded database stopped
+2023.12.06 00:59:54 INFO  web[][o.s.s.app.WebServer] Web Server stopped
+2023.12.06 01:01:10 INFO  web[][o.s.p.ProcessEntryPoint] Starting Web Server
+2023.12.06 01:01:10 INFO  web[][o.s.s.a.TomcatHttpConnectorFactory] Starting Tomcat on port 9000
+2023.12.06 01:01:11 WARN  web[][o.s.p.ProcessEntryPoint] Fail to start Web Server
+java.lang.IllegalStateException: Fail to create or clean-up directory /opt/sonarqube/data/web/deploy
+	at org.sonar.server.app.TomcatContexts.addStaticDir(TomcatContexts.java:84)
+	at org.sonar.server.app.TomcatContexts.configure(TomcatContexts.java:59)
+	at org.sonar.server.app.EmbeddedTomcat.start(EmbeddedTomcat.java:70)
+	at org.sonar.server.app.WebServer.start(WebServer.java:55)
+	at org.sonar.process.ProcessEntryPoint.launch(ProcessEntryPoint.java:97)
+	at org.sonar.process.ProcessEntryPoint.launch(ProcessEntryPoint.java:81)
+	at org.sonar.server.app.WebServer.main(WebServer.java:104)
+Caused by: java.nio.file.AccessDeniedException: /opt/sonarqube/data/web/deploy/plugins/java/sonar-java-plugin-7.27.1.33504.jar
+	at java.base/sun.nio.fs.UnixException.translateToIOException(Unknown Source)
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(Unknown Source)
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(Unknown Source)
+	at java.base/sun.nio.fs.UnixFileSystemProvider.implDelete(Unknown Source)
+	at java.base/sun.nio.fs.AbstractFileSystemProvider.delete(Unknown Source)
+	at java.base/java.nio.file.Files.delete(Unknown Source)
+	at org.sonar.core.util.FileUtils$DeleteRecursivelyFileVisitor.visitFile(FileUtils.java:227)
+	at org.sonar.core.util.FileUtils$DeleteRecursivelyFileVisitor.visitFile(FileUtils.java:222)
+	at java.base/java.nio.file.Files.walkFileTree(Unknown Source)
+	at java.base/java.nio.file.Files.walkFileTree(Unknown Source)
+	at org.sonar.core.util.FileUtils.deleteDirectoryImpl(FileUtils.java:162)
+	at org.sonar.core.util.FileUtils$CleanDirectoryFileVisitor.visitFile(FileUtils.java:206)
+	at org.sonar.core.util.FileUtils$CleanDirectoryFileVisitor.visitFile(FileUtils.java:192)
+	at java.base/java.nio.file.Files.walkFileTree(Unknown Source)
+	at org.sonar.core.util.FileUtils.cleanDirectoryImpl(FileUtils.java:149)
+	at org.sonar.core.util.FileUtils.cleanDirectory(FileUtils.java:89)
+	at org.sonar.server.app.TomcatContexts$Fs.createOrCleanupDir(TomcatContexts.java:123)
+	at org.sonar.server.app.TomcatContexts.addStaticDir(TomcatContexts.java:82)
+	... 6 common frames omitted
+2023.12.06 01:01:11 INFO  web[][o.s.p.ProcessEntryPoint] Hard stopping process

@@ -1,0 +1,73 @@
+version: '3'
+
+volumes:
+  grafana_data:
+  prometheus_data:
+
+networks:
+  monitoring:
+    external: true
+
+services:
+
+  grafana:
+    image: grafana/grafana:9.1.6
+    container_name: grafana
+    restart: always
+    volumes:
+      - grafana_data:/var/lib/grafana
+      - ./grafana/provisioning:/etc/grafana/provisioning/datasources
+    environment:
+      - GF_SECURITY_ADMIN_USER=${GF_SECURITY_ADMIN_USER}
+      - GF_SECURITY_ADMIN_PASSWORD=${GF_SECURITY_ADMIN_PASSWORD}
+      - GF_INSTALL_PLUGINS=${GF_INSTALL_PLUGINS}
+    ports:
+      - 3000:3000
+    networks:
+      - monitoring
+
+  prometheus:
+    image: prom/prometheus:v2.37.1
+    container_name: prometheus
+    restart: always
+    volumes:
+      - ./prometheus/:/etc/prometheus/
+      - prometheus_data:/prometheus
+    command:
+      - '--config.file=/etc/prometheus/prometheus.yaml'
+      - '--storage.tsdb.path=/prometheus'
+      - '--web.console.libraries=/etc/prometheus/console_libraries'
+      - '--web.console.templates=/etc/prometheus/consoles'
+      - '--storage.tsdb.retention.time=360h'
+      - '--web.enable-lifecycle'
+    ports:
+      - 9090:9090
+    networks:
+      - monitoring
+
+  sonarqube:
+      image: sonarqube:community
+      privileged: true
+      depends_on:
+      - postgres
+      environment:
+      - "TZ=Europe/Lisbon"
+      - "ES_JAVA_HOME=/opt/java/openjdk"
+      volumes:
+      - ./conf:/opt/sonarqube/conf
+      - ./data:/opt/sonarqube/data
+      - ./logs:/opt/sonarqube/logs
+      - ./extensions:/opt/sonarqube/extensions
+      ports:
+      - 9000:9000
+  
+  postgres:
+      image: postgres:12.7
+      volumes:
+      - ./pgdata:/var/lib/postgresql/data
+      #environment:
+      #POSTGRES_USER: sonar
+      #POSTGRES_DB: sonardb
+      #POSTGRES_PASSWORD: postgrespwd
+      
+  

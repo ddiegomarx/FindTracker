@@ -1,0 +1,17 @@
+@startuml
+left to right direction
+actor Usuario
+rectangle FinTrackr {
+    Usuario -- (UC01 - Autenticação no Sistema)
+    Usuario -- (UC02 - Gerenciar Perfil)
+    Usuario -- (UC03 - Registrar e Categorizar Transações)
+    Usuario -- (UC04 - Gerenciar Categorias)
+    Usuario -- (UC05 - Gerenciar Orçamentos)
+    Usuario -- (UC06 - Visualizar Dashboard Financeiro)
+    Usuario -- (UC07 - Importar Faturas)
+    Usuario -- (UC08 - Gerenciar Cartões e Faturas)
+    Usuario -- (UC09 - Acompanhar Evolução de Saldo)
+    Usuario -- (UC10 - Gerenciar Bancos)
+    Usuario -- (UC11 -  Definir Mês de Referência para Transações)
+}
+@enduml

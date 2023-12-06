@@ -1,0 +1,124 @@
+@startuml
+
+interface PaymentBehavior {
+    +processPayment(): void
+}
+
+class RegularPayment implements PaymentBehavior {
+    +processPayment(): void
+}
+
+class NoPayment implements PaymentBehavior {
+    +processPayment(): void
+}
+
+class User {
+    +id: int
+    +username: String
+    +password: String
+    +email: String
+    -register(): void
+    -login(): void
+}
+
+abstract class Transaction {
+    +id: int
+    +amount: float
+    +description: String
+    +date: Date
+    +transactionType: TransactionType
+    +categories: Category[]
+    +account: Account
+    +monthReference: Date
+    -addCategory(category: Category): void
+    -removeCategory(category: Category): void
+    #paymentBehavior: PaymentBehavior
+    +setPaymentBehavior(pb: PaymentBehavior): void
+}
+
+class RegularTransaction extends Transaction {
+}
+
+class CreditCardTransaction extends Transaction {
+}
+
+enum TransactionType {
+    INCOME
+    EXPENSE
+}
+
+class Category {
+    +id: int
+    +name: String
+}
+
+class CreditCard {
+    +id: int
+    +name: String
+    +limit: float
+    +invoices: Invoice[]
+    -addInvoice(invoice: Invoice): void
+    -removeInvoice(invoice: Invoice): void
+}
+
+class Invoice {
+    +id: int
+    +amount: float
+    +dueDate: Date
+    +transactions: CreditCardTransaction[]
+    -addTransaction(transaction: CreditCardTransaction): void
+    -removeTransaction(transaction: CreditCardTransaction): void
+}
+
+class Budget {
+    +id: int
+    +month: int
+    +year: int
+    +details: BudgetDetail[]
+}
+
+class BudgetDetail {
+    +id: int
+    +amount: float
+    +category: Category
+}
+
+class Account {
+    +id: int
+    +name: String
+    +balance: float
+    +bank: Bank
+    -debit(amount: float): void
+    -credit(amount: float): void
+}
+
+class Bank {
+    +id: int
+    +name: String
+}
+
+class BalanceHistory {
+    +id: int
+    +date: Date
+    +amount: float
+    +description: String
+    +transaction: Transaction
+}
+
+User "1" -- "0..*" Transaction
+Transaction "0..*" -- "0..*" Category
+Transaction "1" -- "1" Account
+User "1" -- "0..*" CreditCard
+CreditCard "1" -- "0..*" Invoice
+Invoice "1" -- "0..*" CreditCardTransaction
+User "1" -- "0..*" Budget
+Budget "1" -- "0..*" BudgetDetail
+User "1" -- "0..*" Account
+Account "1" -- "1" Bank
+Transaction "1" -- "0..*" BalanceHistory
+
+Transaction <|-- RegularTransaction
+Transaction <|-- CreditCardTransaction
+Transaction -- PaymentBehavior
+
+@enduml

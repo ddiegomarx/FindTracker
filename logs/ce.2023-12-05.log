@@ -1,0 +1,201 @@
+2023.12.05 01:54:18 INFO  ce[][o.s.p.ProcessEntryPoint] Starting Compute Engine
+2023.12.05 01:54:18 INFO  ce[][o.s.ce.app.CeServer] Compute Engine starting up...
+2023.12.05 01:54:18 INFO  ce[][o.s.d.DefaultDatabase] Create JDBC data source for jdbc:h2:tcp://127.0.0.1:9092/sonar;NON_KEYWORDS=VALUE
+2023.12.05 01:54:18 INFO  ce[][c.z.h.HikariDataSource] HikariPool-1 - Starting...
+2023.12.05 01:54:18 INFO  ce[][c.z.h.p.HikariPool] HikariPool-1 - Added connection conn0: url=jdbc:h2:tcp://127.0.0.1:9092/sonar user=
+2023.12.05 01:54:18 INFO  ce[][c.z.h.HikariDataSource] HikariPool-1 - Start completed.
+2023.12.05 01:54:18 WARN  ce[][o.s.db.dialect.H2] H2 database should be used for evaluation purpose only.
+2023.12.05 01:54:19 INFO  ce[][o.s.s.p.ServerFileSystemImpl] SonarQube home: /opt/sonarqube
+2023.12.05 01:54:20 INFO  ce[][o.s.c.c.CePluginRepository] Load plugins
+2023.12.05 01:54:21 INFO  ce[][o.s.c.c.ComputeEngineContainerImpl] Running Community edition
+2023.12.05 01:54:21 INFO  ce[][o.s.ce.app.CeServer] Compute Engine is started
+2023.12.05 01:58:19 INFO  ce[][o.s.p.ProcessEntryPoint] Gracefully stopping process
+2023.12.05 01:58:19 INFO  ce[][o.s.ce.app.CeServer] Compute Engine is stopping...
+2023.12.05 01:58:19 INFO  ce[][o.s.c.t.CeProcessingSchedulerImpl] Gracefully stopping workers...
+2023.12.05 01:58:19 INFO  ce[][c.z.h.HikariDataSource] HikariPool-1 - Shutdown initiated...
+2023.12.05 01:58:19 INFO  ce[][c.z.h.HikariDataSource] HikariPool-1 - Shutdown completed.
+2023.12.05 01:58:19 INFO  ce[][o.s.ce.app.CeServer] Compute Engine is stopped
+2023.12.05 01:59:04 INFO  ce[][o.s.p.ProcessEntryPoint] Starting Compute Engine
+2023.12.05 01:59:04 INFO  ce[][o.s.ce.app.CeServer] Compute Engine starting up...
+2023.12.05 01:59:05 INFO  ce[][o.s.d.DefaultDatabase] Create JDBC data source for jdbc:h2:tcp://127.0.0.1:9092/sonar;NON_KEYWORDS=VALUE
+2023.12.05 01:59:05 INFO  ce[][c.z.h.HikariDataSource] HikariPool-1 - Starting...
+2023.12.05 01:59:05 INFO  ce[][c.z.h.p.HikariPool] HikariPool-1 - Added connection conn0: url=jdbc:h2:tcp://127.0.0.1:9092/sonar user=
+2023.12.05 01:59:05 INFO  ce[][c.z.h.HikariDataSource] HikariPool-1 - Start completed.
+2023.12.05 01:59:05 WARN  ce[][o.s.db.dialect.H2] H2 database should be used for evaluation purpose only.
+2023.12.05 01:59:06 INFO  ce[][o.s.s.p.ServerFileSystemImpl] SonarQube home: /opt/sonarqube
+2023.12.05 01:59:06 INFO  ce[][o.s.c.c.CePluginRepository] Load plugins
+2023.12.05 01:59:07 INFO  ce[][o.s.c.c.ComputeEngineContainerImpl] Running Community edition
+2023.12.05 01:59:07 INFO  ce[][o.s.ce.app.CeServer] Compute Engine is started
+2023.12.05 02:00:22 INFO  ce[][o.s.p.ProcessEntryPoint] Gracefully stopping process
+2023.12.05 02:00:22 INFO  ce[][o.s.ce.app.CeServer] Compute Engine is stopping...
+2023.12.05 02:00:22 INFO  ce[][o.s.c.t.CeProcessingSchedulerImpl] Gracefully stopping workers...
+2023.12.05 02:00:22 INFO  ce[][c.z.h.HikariDataSource] HikariPool-1 - Shutdown initiated...
+2023.12.05 02:00:22 INFO  ce[][c.z.h.HikariDataSource] HikariPool-1 - Shutdown completed.
+2023.12.05 02:00:22 INFO  ce[][o.s.ce.app.CeServer] Compute Engine is stopped
+2023.12.05 02:01:19 INFO  ce[][o.s.p.ProcessEntryPoint] Starting Compute Engine
+2023.12.05 02:01:19 INFO  ce[][o.s.ce.app.CeServer] Compute Engine starting up...
+2023.12.05 02:01:19 INFO  ce[][o.s.d.DefaultDatabase] Create JDBC data source for jdbc:h2:tcp://127.0.0.1:9092/sonar;NON_KEYWORDS=VALUE
+2023.12.05 02:01:19 INFO  ce[][c.z.h.HikariDataSource] HikariPool-1 - Starting...
+2023.12.05 02:01:19 INFO  ce[][c.z.h.p.HikariPool] HikariPool-1 - Added connection conn0: url=jdbc:h2:tcp://127.0.0.1:9092/sonar user=
+2023.12.05 02:01:19 INFO  ce[][c.z.h.HikariDataSource] HikariPool-1 - Start completed.
+2023.12.05 02:01:19 WARN  ce[][o.s.db.dialect.H2] H2 database should be used for evaluation purpose only.
+2023.12.05 02:01:20 INFO  ce[][o.s.s.p.ServerFileSystemImpl] SonarQube home: /opt/sonarqube
+2023.12.05 02:01:21 INFO  ce[][o.s.c.c.CePluginRepository] Load plugins
+2023.12.05 02:01:22 INFO  ce[][o.s.c.c.ComputeEngineContainerImpl] Running Community edition
+2023.12.05 02:01:22 INFO  ce[][o.s.ce.app.CeServer] Compute Engine is started
+2023.12.05 02:05:41 INFO  ce[][o.s.p.ProcessEntryPoint] Gracefully stopping process
+2023.12.05 02:05:41 INFO  ce[][o.s.ce.app.CeServer] Compute Engine is stopping...
+2023.12.05 02:05:41 INFO  ce[][o.s.c.t.CeProcessingSchedulerImpl] Gracefully stopping workers...
+2023.12.05 02:05:41 INFO  ce[][c.z.h.HikariDataSource] HikariPool-1 - Shutdown initiated...
+2023.12.05 02:05:41 INFO  ce[][c.z.h.HikariDataSource] HikariPool-1 - Shutdown completed.
+2023.12.05 02:05:41 INFO  ce[][o.s.ce.app.CeServer] Compute Engine is stopped
+2023.12.05 02:06:55 INFO  ce[][o.s.p.ProcessEntryPoint] Starting Compute Engine
+2023.12.05 02:06:55 INFO  ce[][o.s.ce.app.CeServer] Compute Engine starting up...
+2023.12.05 02:06:55 INFO  ce[][o.s.d.DefaultDatabase] Create JDBC data source for jdbc:h2:tcp://127.0.0.1:9092/sonar;NON_KEYWORDS=VALUE
+2023.12.05 02:06:55 INFO  ce[][c.z.h.HikariDataSource] HikariPool-1 - Starting...
+2023.12.05 02:06:55 INFO  ce[][c.z.h.p.HikariPool] HikariPool-1 - Added connection conn0: url=jdbc:h2:tcp://127.0.0.1:9092/sonar user=
+2023.12.05 02:06:55 INFO  ce[][c.z.h.HikariDataSource] HikariPool-1 - Start completed.
+2023.12.05 02:06:55 WARN  ce[][o.s.db.dialect.H2] H2 database should be used for evaluation purpose only.
+2023.12.05 02:06:56 INFO  ce[][o.s.s.p.ServerFileSystemImpl] SonarQube home: /opt/sonarqube
+2023.12.05 02:06:57 INFO  ce[][o.s.c.c.CePluginRepository] Load plugins
+2023.12.05 02:06:58 INFO  ce[][o.s.c.c.ComputeEngineContainerImpl] Running Community edition
+2023.12.05 02:06:58 INFO  ce[][o.s.ce.app.CeServer] Compute Engine is started
+2023.12.05 02:08:42 INFO  ce[][o.s.c.t.CeWorkerImpl] Execute task | project=squ_3e7d458ca3fe286f5e75c0187e901b7d9db00bf6 | type=REPORT | id=AYw3vA9kuwXV3S7OifKr | submitter=admin
+2023.12.05 02:08:43 INFO  ce[AYw3vA9kuwXV3S7OifKr][o.s.c.t.s.ComputationStepExecutor] Extract report | status=SUCCESS | time=30ms
+2023.12.05 02:08:43 INFO  ce[AYw3vA9kuwXV3S7OifKr][o.s.c.t.s.ComputationStepExecutor] Persist scanner context | status=SUCCESS | time=9ms
+2023.12.05 02:08:43 INFO  ce[AYw3vA9kuwXV3S7OifKr][o.s.c.t.s.ComputationStepExecutor] Propagate analysis warnings from scanner report | status=SUCCESS | time=33ms
+2023.12.05 02:08:43 INFO  ce[AYw3vA9kuwXV3S7OifKr][o.s.c.t.s.ComputationStepExecutor] Generate analysis UUID | status=SUCCESS | time=0ms
+2023.12.05 02:08:43 INFO  ce[AYw3vA9kuwXV3S7OifKr][o.s.c.t.s.ComputationStepExecutor] Load analysis metadata | status=SUCCESS | time=110ms
+2023.12.05 02:08:43 INFO  ce[AYw3vA9kuwXV3S7OifKr][o.s.c.t.s.ComputationStepExecutor] Initialize | status=SUCCESS | time=0ms
+2023.12.05 02:08:43 INFO  ce[AYw3vA9kuwXV3S7OifKr][o.s.c.t.s.ComputationStepExecutor] Build tree of components | components=30 | status=SUCCESS | time=52ms
+2023.12.05 02:08:43 INFO  ce[AYw3vA9kuwXV3S7OifKr][o.s.c.t.s.ComputationStepExecutor] Validate project | status=SUCCESS | time=6ms
+2023.12.05 02:08:43 INFO  ce[AYw3vA9kuwXV3S7OifKr][o.s.s.e.EsClientProvider] Connected to local Elasticsearch: [http://localhost:9001]
+2023.12.05 02:08:49 INFO  ce[AYw3vA9kuwXV3S7OifKr][o.s.c.t.s.ComputationStepExecutor] Load quality profiles | status=SUCCESS | time=5523ms
+2023.12.05 02:08:49 INFO  ce[AYw3vA9kuwXV3S7OifKr][o.s.c.t.s.ComputationStepExecutor] Checks executed before computation of measures | status=SUCCESS | time=0ms
+2023.12.05 02:08:49 INFO  ce[AYw3vA9kuwXV3S7OifKr][o.s.c.t.s.ComputationStepExecutor] Generate SQ Upgrade analysis events | status=SUCCESS | time=4ms
+2023.12.05 02:08:49 INFO  ce[AYw3vA9kuwXV3S7OifKr][o.s.c.t.s.ComputationStepExecutor] Load file hashes and statuses | status=SUCCESS | time=5ms
+2023.12.05 02:08:49 INFO  ce[AYw3vA9kuwXV3S7OifKr][o.s.c.t.s.ComputationStepExecutor] Load Quality gate | status=SUCCESS | time=12ms
+2023.12.05 02:08:49 INFO  ce[AYw3vA9kuwXV3S7OifKr][o.s.c.t.s.ComputationStepExecutor] Load new code period | status=SUCCESS | time=8ms
+2023.12.05 02:08:49 INFO  ce[AYw3vA9kuwXV3S7OifKr][o.s.c.t.s.ComputationStepExecutor] Detect file moves | status=SUCCESS | time=0ms
+2023.12.05 02:08:49 INFO  ce[AYw3vA9kuwXV3S7OifKr][o.s.c.t.s.ComputationStepExecutor] Detect file moves in Pull Request scope | status=SUCCESS | time=0ms
+2023.12.05 02:08:49 INFO  ce[AYw3vA9kuwXV3S7OifKr][o.s.c.t.s.ComputationStepExecutor] Load duplications | duplications=0 | status=SUCCESS | time=4ms
+2023.12.05 02:08:49 INFO  ce[AYw3vA9kuwXV3S7OifKr][o.s.c.t.s.ComputationStepExecutor] Compute cross project duplications | status=SUCCESS | time=0ms
+2023.12.05 02:08:49 INFO  ce[AYw3vA9kuwXV3S7OifKr][o.s.c.t.s.ComputationStepExecutor] Compute size measures | status=SUCCESS | time=30ms
+2023.12.05 02:08:49 INFO  ce[AYw3vA9kuwXV3S7OifKr][o.s.c.t.s.ComputationStepExecutor] Compute new coverage | status=SUCCESS | time=6ms
+2023.12.05 02:08:49 INFO  ce[AYw3vA9kuwXV3S7OifKr][o.s.c.t.s.ComputationStepExecutor] Compute coverage measures | status=SUCCESS | time=17ms
+2023.12.05 02:08:49 INFO  ce[AYw3vA9kuwXV3S7OifKr][o.s.c.t.s.ComputationStepExecutor] Compute comment measures | status=SUCCESS | time=3ms
+2023.12.05 02:08:49 INFO  ce[AYw3vA9kuwXV3S7OifKr][o.s.c.t.s.ComputationStepExecutor] Compute duplication measures | status=SUCCESS | time=2ms
+2023.12.05 02:08:49 INFO  ce[AYw3vA9kuwXV3S7OifKr][o.s.c.t.s.ComputationStepExecutor] Compute size measures on new code | status=SUCCESS | time=1ms
+2023.12.05 02:08:49 INFO  ce[AYw3vA9kuwXV3S7OifKr][o.s.c.t.s.ComputationStepExecutor] Compute language distribution | status=SUCCESS | time=19ms
+2023.12.05 02:08:49 INFO  ce[AYw3vA9kuwXV3S7OifKr][o.s.c.t.s.ComputationStepExecutor] Compute test measures | status=SUCCESS | time=1ms
+2023.12.05 02:08:49 INFO  ce[AYw3vA9kuwXV3S7OifKr][o.s.c.t.s.ComputationStepExecutor] Compute complexity measures | status=SUCCESS | time=3ms
+2023.12.05 02:08:49 INFO  ce[AYw3vA9kuwXV3S7OifKr][o.s.c.t.s.ComputationStepExecutor] Load measure computers | status=SUCCESS | time=3ms
+2023.12.05 02:08:49 INFO  ce[AYw3vA9kuwXV3S7OifKr][o.s.c.t.s.ComputationStepExecutor] Compute Quality Profile status | status=SUCCESS | time=4ms
+2023.12.05 02:08:50 INFO  ce[AYw3vA9kuwXV3S7OifKr][o.s.c.t.s.ComputationStepExecutor] Execute component visitors | status=SUCCESS | time=264ms
+2023.12.05 02:08:50 INFO  ce[AYw3vA9kuwXV3S7OifKr][o.s.c.t.s.ComputationStepExecutor] Checks executed after computation of measures | status=SUCCESS | time=1ms
+2023.12.05 02:08:50 INFO  ce[AYw3vA9kuwXV3S7OifKr][o.s.c.t.s.ComputationStepExecutor] Compute Quality Gate measures | status=SUCCESS | time=7ms
+2023.12.05 02:08:50 INFO  ce[AYw3vA9kuwXV3S7OifKr][o.s.c.t.s.ComputationStepExecutor] Compute Quality profile measures | status=SUCCESS | time=5ms
+2023.12.05 02:08:50 INFO  ce[AYw3vA9kuwXV3S7OifKr][o.s.c.t.s.ComputationStepExecutor] Generate Quality profile events | status=SUCCESS | time=2ms
+2023.12.05 02:08:50 INFO  ce[AYw3vA9kuwXV3S7OifKr][o.s.c.t.s.ComputationStepExecutor] Generate Quality gate events | status=SUCCESS | time=1ms
+2023.12.05 02:08:50 INFO  ce[AYw3vA9kuwXV3S7OifKr][o.s.c.t.s.ComputationStepExecutor] Generate Issue Detection events | status=SUCCESS | time=2ms
+2023.12.05 02:08:50 INFO  ce[AYw3vA9kuwXV3S7OifKr][o.s.c.t.s.ComputationStepExecutor] Check upgrade possibility for not analyzed code files. | status=SUCCESS | time=2ms
+2023.12.05 02:08:50 INFO  ce[AYw3vA9kuwXV3S7OifKr][o.s.c.t.s.ComputationStepExecutor] Persist scanner analysis cache | status=SUCCESS | time=5ms
+2023.12.05 02:08:50 INFO  ce[AYw3vA9kuwXV3S7OifKr][o.s.c.t.s.ComputationStepExecutor] Persist components | status=SUCCESS | time=41ms
+2023.12.05 02:08:50 INFO  ce[AYw3vA9kuwXV3S7OifKr][o.s.c.t.s.ComputationStepExecutor] Persist analysis | status=SUCCESS | time=4ms
+2023.12.05 02:08:50 INFO  ce[AYw3vA9kuwXV3S7OifKr][o.s.c.t.s.ComputationStepExecutor] Persist analysis properties | status=SUCCESS | time=5ms
+2023.12.05 02:08:50 INFO  ce[AYw3vA9kuwXV3S7OifKr][o.s.c.t.s.ComputationStepExecutor] Persist measures | inserts=51 | status=SUCCESS | time=29ms
+2023.12.05 02:08:50 INFO  ce[AYw3vA9kuwXV3S7OifKr][o.s.c.t.s.ComputationStepExecutor] Persist live measures | insertsOrUpdates=1071 | status=SUCCESS | time=300ms
+2023.12.05 02:08:50 INFO  ce[AYw3vA9kuwXV3S7OifKr][o.s.c.t.s.ComputationStepExecutor] Persist duplication data | insertsOrUpdates=0 | status=SUCCESS | time=1ms
+2023.12.05 02:08:50 INFO  ce[AYw3vA9kuwXV3S7OifKr][o.s.c.t.s.ComputationStepExecutor] Persist new ad hoc Rules | status=SUCCESS | time=1ms
+2023.12.05 02:08:50 INFO  ce[AYw3vA9kuwXV3S7OifKr][o.s.c.t.s.ComputationStepExecutor] Persist issues | cacheSize=5.4 kB | inserts=9 | updates=0 | merged=0 | status=SUCCESS | time=19ms
+2023.12.05 02:08:50 INFO  ce[AYw3vA9kuwXV3S7OifKr][o.s.c.t.s.ComputationStepExecutor] Delete issue changes | changes=0 | status=SUCCESS | time=0ms
+2023.12.05 02:08:50 INFO  ce[AYw3vA9kuwXV3S7OifKr][o.s.c.t.s.ComputationStepExecutor] Persist project links | status=SUCCESS | time=6ms
+2023.12.05 02:08:50 INFO  ce[AYw3vA9kuwXV3S7OifKr][o.s.c.t.s.ComputationStepExecutor] Persist events | status=SUCCESS | time=5ms
+2023.12.05 02:08:50 INFO  ce[AYw3vA9kuwXV3S7OifKr][o.s.c.t.s.ComputationStepExecutor] Persist sources | status=SUCCESS | time=140ms
+2023.12.05 02:08:50 INFO  ce[AYw3vA9kuwXV3S7OifKr][o.s.c.t.s.ComputationStepExecutor] Persist cross project duplications | status=SUCCESS | time=0ms
+2023.12.05 02:08:50 INFO  ce[AYw3vA9kuwXV3S7OifKr][o.s.c.t.s.ComputationStepExecutor] Enable analysis | status=SUCCESS | time=3ms
+2023.12.05 02:08:50 INFO  ce[AYw3vA9kuwXV3S7OifKr][o.s.c.t.s.ComputationStepExecutor] Update last usage date of quality profiles | status=SUCCESS | time=13ms
+2023.12.05 02:08:50 INFO  ce[AYw3vA9kuwXV3S7OifKr][o.s.c.t.s.ComputationStepExecutor] Purge db | status=SUCCESS | time=48ms
+2023.12.05 02:08:52 INFO  ce[AYw3vA9kuwXV3S7OifKr][o.s.c.t.s.ComputationStepExecutor] Index analysis | status=SUCCESS | time=1250ms
+2023.12.05 02:08:52 INFO  ce[AYw3vA9kuwXV3S7OifKr][o.s.c.t.s.ComputationStepExecutor] Update need issue sync for branch | status=SUCCESS | time=2ms
+2023.12.05 02:08:52 INFO  ce[AYw3vA9kuwXV3S7OifKr][o.s.c.t.s.ComputationStepExecutor] Compute total Project ncloc | status=SUCCESS | time=5ms
+2023.12.05 02:08:52 INFO  ce[AYw3vA9kuwXV3S7OifKr][o.s.c.t.s.ComputationStepExecutor] Publishing taint vulnerabilities and security hotspots events | status=SUCCESS | time=18ms
+2023.12.05 02:08:52 INFO  ce[AYw3vA9kuwXV3S7OifKr][o.s.c.t.s.ComputationStepExecutor] Send issue notifications | newIssuesNotifs=0 | newIssuesDeliveries=0 | myNewIssuesNotifs=0 | myNewIssuesDeliveries=0 | changesNotifs=0 | changesDeliveries=0 | status=SUCCESS | time=5ms
+2023.12.05 02:08:52 INFO  ce[AYw3vA9kuwXV3S7OifKr][o.s.c.t.s.ComputationStepExecutor] Publish task results | status=SUCCESS | time=0ms
+2023.12.05 02:08:52 INFO  ce[AYw3vA9kuwXV3S7OifKr][o.s.c.t.s.ComputationStepExecutor] Trigger refresh of Portfolios and Applications | status=SUCCESS | time=0ms
+2023.12.05 02:08:52 INFO  ce[AYw3vA9kuwXV3S7OifKr][o.s.c.t.p.a.p.PostProjectAnalysisTasksExecutor] Webhooks | globalWebhooks=0 | projectWebhooks=0 | status=SUCCESS | time=6ms
+2023.12.05 02:08:52 INFO  ce[AYw3vA9kuwXV3S7OifKr][o.s.c.t.CeWorkerImpl] Executed task | project=squ_3e7d458ca3fe286f5e75c0187e901b7d9db00bf6 | type=REPORT | id=AYw3vA9kuwXV3S7OifKr | submitter=admin | status=SUCCESS | time=9347ms
+2023.12.05 02:13:22 INFO  ce[][o.s.p.ProcessEntryPoint] Gracefully stopping process
+2023.12.05 02:13:22 INFO  ce[][o.s.ce.app.CeServer] Compute Engine is stopping...
+2023.12.05 02:13:22 INFO  ce[][o.s.c.t.CeProcessingSchedulerImpl] Gracefully stopping workers...
+2023.12.05 02:13:22 INFO  ce[][c.z.h.HikariDataSource] HikariPool-1 - Shutdown initiated...
+2023.12.05 02:13:22 INFO  ce[][c.z.h.HikariDataSource] HikariPool-1 - Shutdown completed.
+2023.12.05 02:13:22 INFO  ce[][o.s.ce.app.CeServer] Compute Engine is stopped
+2023.12.05 02:48:30 INFO  ce[][o.s.p.ProcessEntryPoint] Starting Compute Engine
+2023.12.05 02:48:30 INFO  ce[][o.s.ce.app.CeServer] Compute Engine starting up...
+2023.12.05 02:48:30 INFO  ce[][o.s.d.DefaultDatabase] Create JDBC data source for jdbc:h2:tcp://127.0.0.1:9092/sonar;NON_KEYWORDS=VALUE
+2023.12.05 02:48:30 INFO  ce[][c.z.h.HikariDataSource] HikariPool-1 - Starting...
+2023.12.05 02:48:30 INFO  ce[][c.z.h.p.HikariPool] HikariPool-1 - Added connection conn0: url=jdbc:h2:tcp://127.0.0.1:9092/sonar user=
+2023.12.05 02:48:30 INFO  ce[][c.z.h.HikariDataSource] HikariPool-1 - Start completed.
+2023.12.05 02:48:30 WARN  ce[][o.s.db.dialect.H2] H2 database should be used for evaluation purpose only.
+2023.12.05 02:48:32 INFO  ce[][o.s.s.p.ServerFileSystemImpl] SonarQube home: /opt/sonarqube
+2023.12.05 02:48:32 INFO  ce[][o.s.c.c.CePluginRepository] Load plugins
+2023.12.05 02:48:33 INFO  ce[][o.s.c.c.ComputeEngineContainerImpl] Running Community edition
+2023.12.05 02:48:33 INFO  ce[][o.s.ce.app.CeServer] Compute Engine is started
+2023.12.05 03:05:38 INFO  ce[][o.s.p.ProcessEntryPoint] Gracefully stopping process
+2023.12.05 03:05:38 INFO  ce[][o.s.ce.app.CeServer] Compute Engine is stopping...
+2023.12.05 03:05:38 INFO  ce[][o.s.c.t.CeProcessingSchedulerImpl] Gracefully stopping workers...
+2023.12.05 03:05:38 INFO  ce[][c.z.h.HikariDataSource] HikariPool-1 - Shutdown initiated...
+2023.12.05 03:05:38 INFO  ce[][c.z.h.HikariDataSource] HikariPool-1 - Shutdown completed.
+2023.12.05 03:05:38 INFO  ce[][o.s.ce.app.CeServer] Compute Engine is stopped
+2023.12.05 03:06:43 INFO  ce[][o.s.p.ProcessEntryPoint] Starting Compute Engine
+2023.12.05 03:06:43 INFO  ce[][o.s.ce.app.CeServer] Compute Engine starting up...
+2023.12.05 03:06:43 INFO  ce[][o.s.d.DefaultDatabase] Create JDBC data source for jdbc:h2:tcp://127.0.0.1:9092/sonar;NON_KEYWORDS=VALUE
+2023.12.05 03:06:43 INFO  ce[][c.z.h.HikariDataSource] HikariPool-1 - Starting...
+2023.12.05 03:06:44 INFO  ce[][c.z.h.p.HikariPool] HikariPool-1 - Added connection conn0: url=jdbc:h2:tcp://127.0.0.1:9092/sonar user=
+2023.12.05 03:06:44 INFO  ce[][c.z.h.HikariDataSource] HikariPool-1 - Start completed.
+2023.12.05 03:06:44 WARN  ce[][o.s.db.dialect.H2] H2 database should be used for evaluation purpose only.
+2023.12.05 03:06:45 INFO  ce[][o.s.s.p.ServerFileSystemImpl] SonarQube home: /opt/sonarqube
+2023.12.05 03:06:45 INFO  ce[][o.s.c.c.CePluginRepository] Load plugins
+2023.12.05 03:06:46 INFO  ce[][o.s.c.c.ComputeEngineContainerImpl] Running Community edition
+2023.12.05 03:06:46 INFO  ce[][o.s.ce.app.CeServer] Compute Engine is started
+2023.12.05 03:06:51 INFO  ce[][o.s.p.ProcessEntryPoint] Gracefully stopping process
+2023.12.05 03:06:51 INFO  ce[][o.s.ce.app.CeServer] Compute Engine is stopping...
+2023.12.05 03:06:51 INFO  ce[][o.s.c.t.CeProcessingSchedulerImpl] Gracefully stopping workers...
+2023.12.05 03:06:51 INFO  ce[][c.z.h.HikariDataSource] HikariPool-1 - Shutdown initiated...
+2023.12.05 03:06:51 INFO  ce[][c.z.h.HikariDataSource] HikariPool-1 - Shutdown completed.
+2023.12.05 03:06:51 INFO  ce[][o.s.ce.app.CeServer] Compute Engine is stopped
+2023.12.05 03:07:53 INFO  ce[][o.s.p.ProcessEntryPoint] Starting Compute Engine
+2023.12.05 03:07:53 INFO  ce[][o.s.ce.app.CeServer] Compute Engine starting up...
+2023.12.05 03:07:53 INFO  ce[][o.s.d.DefaultDatabase] Create JDBC data source for jdbc:h2:tcp://127.0.0.1:9092/sonar;NON_KEYWORDS=VALUE
+2023.12.05 03:07:53 INFO  ce[][c.z.h.HikariDataSource] HikariPool-1 - Starting...
+2023.12.05 03:07:53 INFO  ce[][c.z.h.p.HikariPool] HikariPool-1 - Added connection conn0: url=jdbc:h2:tcp://127.0.0.1:9092/sonar user=
+2023.12.05 03:07:53 INFO  ce[][c.z.h.HikariDataSource] HikariPool-1 - Start completed.
+2023.12.05 03:07:53 WARN  ce[][o.s.db.dialect.H2] H2 database should be used for evaluation purpose only.
+2023.12.05 03:07:54 INFO  ce[][o.s.s.p.ServerFileSystemImpl] SonarQube home: /opt/sonarqube
+2023.12.05 03:07:55 INFO  ce[][o.s.c.c.CePluginRepository] Load plugins
+2023.12.05 03:07:56 INFO  ce[][o.s.c.c.ComputeEngineContainerImpl] Running Community edition
+2023.12.05 03:07:56 INFO  ce[][o.s.ce.app.CeServer] Compute Engine is started
+2023.12.05 03:08:46 INFO  ce[][o.s.p.ProcessEntryPoint] Gracefully stopping process
+2023.12.05 03:08:46 INFO  ce[][o.s.ce.app.CeServer] Compute Engine is stopping...
+2023.12.05 03:08:46 INFO  ce[][o.s.c.t.CeProcessingSchedulerImpl] Gracefully stopping workers...
+2023.12.05 03:08:46 INFO  ce[][c.z.h.HikariDataSource] HikariPool-1 - Shutdown initiated...
+2023.12.05 03:08:46 INFO  ce[][c.z.h.HikariDataSource] HikariPool-1 - Shutdown completed.
+2023.12.05 03:08:46 INFO  ce[][o.s.ce.app.CeServer] Compute Engine is stopped
+2023.12.05 03:09:32 INFO  ce[][o.s.p.ProcessEntryPoint] Starting Compute Engine
+2023.12.05 03:09:32 INFO  ce[][o.s.ce.app.CeServer] Compute Engine starting up...
+2023.12.05 03:09:33 INFO  ce[][o.s.d.DefaultDatabase] Create JDBC data source for jdbc:h2:tcp://127.0.0.1:9092/sonar;NON_KEYWORDS=VALUE
+2023.12.05 03:09:33 INFO  ce[][c.z.h.HikariDataSource] HikariPool-1 - Starting...
+2023.12.05 03:09:33 INFO  ce[][c.z.h.p.HikariPool] HikariPool-1 - Added connection conn0: url=jdbc:h2:tcp://127.0.0.1:9092/sonar user=
+2023.12.05 03:09:33 INFO  ce[][c.z.h.HikariDataSource] HikariPool-1 - Start completed.
+2023.12.05 03:09:33 WARN  ce[][o.s.db.dialect.H2] H2 database should be used for evaluation purpose only.
+2023.12.05 03:09:34 INFO  ce[][o.s.s.p.ServerFileSystemImpl] SonarQube home: /opt/sonarqube
+2023.12.05 03:09:34 INFO  ce[][o.s.c.c.CePluginRepository] Load plugins
+2023.12.05 03:09:35 INFO  ce[][o.s.c.c.ComputeEngineContainerImpl] Running Community edition
+2023.12.05 03:09:35 INFO  ce[][o.s.ce.app.CeServer] Compute Engine is started
+2023.12.05 03:12:46 INFO  ce[][o.s.p.ProcessEntryPoint] Gracefully stopping process
+2023.12.05 03:12:46 INFO  ce[][o.s.ce.app.CeServer] Compute Engine is stopping...
+2023.12.05 03:12:46 INFO  ce[][o.s.c.t.CeProcessingSchedulerImpl] Gracefully stopping workers...
+2023.12.05 03:12:46 INFO  ce[][c.z.h.HikariDataSource] HikariPool-1 - Shutdown initiated...
+2023.12.05 03:12:46 INFO  ce[][c.z.h.HikariDataSource] HikariPool-1 - Shutdown completed.
+2023.12.05 03:12:46 INFO  ce[][o.s.ce.app.CeServer] Compute Engine is stopped

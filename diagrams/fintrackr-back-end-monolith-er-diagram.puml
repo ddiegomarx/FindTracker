@@ -1,0 +1,87 @@
+@startuml
+
+entity "User" {
+    +id: int
+    username: String
+    hashedPassword: String
+    email: String
+}
+
+entity "Transaction" {
+    +id: int
+    amount: float
+    description: String
+    date: Date
+    transactionType: TransactionType
+}
+
+entity "Category" {
+    +id: int
+    name: String
+    color: String
+    icon: Image
+}
+
+entity "CreditCard" {
+    +id: int
+    name: String
+    brand: String
+    logo: Image
+    lastFourDigits: String
+    expiryDate: Date
+    limit: float
+}
+
+entity "Invoice" {
+    +id: int
+    amount: float
+    dueDate: Date
+}
+
+entity "Budget" {
+    +id: int
+    month: int
+    year: int
+}
+
+entity "BudgetDetail" {
+    +id: int
+    amount: float
+}
+
+entity "Account" {
+    +id: int
+    name: String
+    balance: float
+}
+
+entity "Bank" {
+    +id: int
+    name: String
+    logo: Image
+}
+
+entity "BalanceHistory" {
+    +id: int
+    date: Date
+    amount: float
+    description: String
+}
+
+User ||--o{ Transaction : has
+User ||--|| UserProfile : has
+Transaction ||--o{ Category : belongs to
+Transaction ||--|| Account : uses
+User ||--o{ CreditCard : owns
+CreditCard ||--o{ Invoice : has
+Invoice ||--o{ Transaction : contains
+User ||--o{ Budget : sets
+Budget ||--o{ BudgetDetail : contains
+BudgetDetail ||--|| Category : for
+BudgetDetail ||--o{ Transaction : tracks
+User ||--o{ Account : owns
+Account ||--o{ BalanceHistory : has
+Account ||--|| Bank : belongs to
+Transaction ||--o{ BalanceHistory : affects
+
+@enduml

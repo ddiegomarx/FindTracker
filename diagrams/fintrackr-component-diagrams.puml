@@ -1,0 +1,22 @@
+@startuml
+package "Front-end" {
+    [Aplicação Front-end]
+}
+
+database "Banco de Dados" {
+    [Base de Dados]
+}
+
+cloud "Backend Monolítico" {
+    [Aplicação Monolítica]
+}
+
+cloud "Backend Microserviço" {
+    [Microserviço da Planilha]
+}
+
+[Aplicação Front-end] --> [Aplicação Monolítica] : Faz requisições
+[Aplicação Monolítica] --> [Base de Dados] : Acessa e Modifica
+[Aplicação Monolítica] --> [Microserviço da Planilha] : Comunica via RabbitMQ
+[Microserviço da Planilha] --> [Aplicação Monolítica] : Comunica via RabbitMQ
+@enduml
