@@ -1,24 +1,25 @@
-  on:
-    push:
-        branches:
-            - main
+name: Teste de CI com Node.js
 
-name: 🚀 Deploy website on push
+on:
+  push:
+    branches:
+      - main
+
 jobs:
-  web-deploy:
-    name: 🎉 Deploy
-    runs-on: self-hosted
-    steps:
-    - name: 🚚 Get latest code
-      uses: actions/checkout@v3
+  build:
+     runs-on: self-hosted # Utilizando um runner hospedado por você
 
-    - name: Use Node.js 16
+    steps:
+    - name: Checkout do código
+      uses: actions/checkout@v2
+
+    - name: Configuração do ambiente Node.js
       uses: actions/setup-node@v2
       with:
-        node-version: '16'
-      
-    - name: 🔨 Build Project
-      run: |
-        npm install
-        npm run build --prod
-    
+        node-version: '14' # Versão do Node.js desejada
+
+    - name: Instalação das dependências
+      run: npm install
+
+    - name: Executar testes
+      run: npm test
