@@ -16,9 +16,3 @@ jobs:
     steps:
     - name: Checkout do código
       uses: actions/checkout@v2
-
-    - name: Instalação das dependências
-      run: docker run -p 3000:3000 fintrackr-backend
-
-    - name: Executar container
-      run: docker-compose up -d
