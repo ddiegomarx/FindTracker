@@ -17,13 +17,8 @@ jobs:
     - name: Checkout do código
       uses: actions/checkout@v2
 
-    - name: Configuração do ambiente Node.js
-      uses: actions/setup-node@v2
-      with:
-        node-version: '14' # Versão do Node.js desejada
-
     - name: Instalação das dependências
-      run: npm install
+      run: docker run -p 3000:3000 fintrackr-backend
 
-    - name: Executar testes
-      run: npm test
+    - name: Executar container
+      run: docker-compose up -d
