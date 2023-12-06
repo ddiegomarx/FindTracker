@@ -1,0 +1,22 @@
+name: Teste de CI no Windows
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  build:
+    runs-on: windows-latest
+
+    steps:
+    - name: Checkout do código
+      uses: actions/checkout@v2
+
+    - name: Configuração do ambiente
+      run: |
+        docker run -p 5000:5000 fintrackr-backend
+		docker-compose up -d
+
+    - name: Executar testes
+      run: npm test
